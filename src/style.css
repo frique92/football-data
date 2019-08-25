@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.container {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+    justify-content: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+.settings {
+    margin-bottom: 30px;
+}
+.settings__btn {
+    margin-right: 10px;
+}
+.logo-team {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+.header {
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+}
