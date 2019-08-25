@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Football stats</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1><span class="badge badge-primary">FOOTBALL</span>stats</h1>
+        </header>
+        <main class="container">
+            <div class="d-flex justify-content-center flex-column settings">
+                <form class="was-validated">
+                    <select class="custom-select custom-select-lg mb-3 form-control" id="competitions" required></select>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-outline-primary settings__btn" id="standing">Standing</button>
+                        <button type="button" class="btn btn-outline-primary settings__btn" id="teams">Teams</button>
+                    </div>
+                </form>
+
+            </div>
+            <div id="app"></div>
+        </main>
+        <footer class="footer navbar-fixed-bottom">
+            <div class="d-flex justify-content-center">Football data provided by the Football-Data.org API</div>
+        </footer>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
